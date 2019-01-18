@@ -12,11 +12,11 @@
   const URL = `http://localhost:${PORT}`
 
   // Start a Puppeteer instance.
-  const browser = await puppeteer.launch({ headless: true})
-  const page = await browser.newPage();
+  const browser = await puppeteer.launch({ headless: true })
+  const page = await browser.newPage()
 
   // Load app.
-  await page.goto(URL);
+  await page.goto(URL)
   await percySnapshot(page, 'TodoMVC home page')
 
   // Enter a new to-do.

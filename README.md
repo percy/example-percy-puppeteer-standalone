@@ -16,5 +16,5 @@ $ open index.html
 
 To run the Puppeteer snapshotting script:
 ```bash
-$ npm run snapshots
+$ npm test
 ```

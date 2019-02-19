@@ -12,7 +12,10 @@
   const URL = `http://localhost:${PORT}`
 
   // Start a Puppeteer instance.
-  const browser = await puppeteer.launch({ headless: true })
+  const browser = await puppeteer.launch({
+     headless: true,
+     args: [ '--single-process' ]
+  })
   const page = await browser.newPage()
 
   // Load app.

@@ -14,7 +14,9 @@
   // Start a Puppeteer instance.
   const browser = await puppeteer.launch({
      headless: true,
-     args: [ '--single-process' ]
+     // This argument is helpful in low-memory environments, but does not work on
+     // Windows.
+     //args: [ '--single-process' ]
   })
   const page = await browser.newPage()
 

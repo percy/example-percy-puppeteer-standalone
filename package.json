@@ -10,6 +10,6 @@
   "devDependencies": {
     "@percy/puppeteer": "^1.1.0",
     "http-server": "^0.12.3",
-    "puppeteer": "^8.0.0"
+    "puppeteer": "^9.0.0"
   }
 }

@@ -4,7 +4,7 @@
     "test": "percy exec -- node puppeteer_snapshots.js"
   },
   "dependencies": {
-    "todomvc-app-css": "^2.4.0",
+    "todomvc-app-css": "^2.4.1",
     "todomvc-common": "^1.0.2"
   },
   "devDependencies": {
